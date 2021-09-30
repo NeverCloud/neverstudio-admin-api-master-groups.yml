@@ -1,0 +1,28 @@
+# Стандартный ранг игрока
+default:
+  displayName: '&7'
+  subgroups: []
+  default: true
+  permissions:
+    - '!litebans.notify'
+    - 'group.default'
+    - ''
+friends:
+  displayName: '&b&lF&e&lR&6&lI&d&lE&5&lN&a&lD&2&lS &7'
+  subgroups:
+    - default
+  default: false
+  permissions:
+    - 'donate.hero'
+    - 'blestacloud.cmd.speed'
+# Привилегии
+hero:
+  displayName: '&9&lHERO &9'
+  donate: true
+  reward-buy: 500
+  boost: 1.2
+  subgroups:
+    - 'default'
+  permissions:
+    - 'donate.hero'
+    - 'blestacloud.cmd.fly'
